@@ -16,7 +16,7 @@
         alt="codeliterature logo"
         class="h-[150px] w-[150px] rounded-full drop-shadow-xl"
       />
-      <a href="/">Projects</a>
+      <a href="/projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
     <nav class="md:hidden px-8 py-4 flex items-center justify-between">
@@ -62,9 +62,9 @@
     <div class="flex space-x-2">
         <h3>Follow us on:</h3>
         <div class="flex space-x-2">
-            <a href="">X</a>
-            <a href="">I</a>
-            <a href="">G</a>
+            <a href="/">X</a>
+            <a href="/">I</a>
+            <a href="/">G</a>
         </div>
     </div>
 </footer>

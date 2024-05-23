@@ -1,5 +1,5 @@
 <script>
-    import data from "../lib/data"
+    import {skill_dict} from "../lib/data"
     // const handleSubmit() {
     //     let will = "Do something blah blah blah"
     // }
@@ -23,7 +23,7 @@
         <div class="flex flex-col space-y-4">
             <h1 class="text-center text-2xl font-bold py-2 text-title font-heading tracking-wide">Our Tech Stack</h1>
             <div class="flex flex-wrap py-2 justify-around ">
-                {#each Object.entries(data) as [stack, tools]}
+                {#each Object.entries(skill_dict) as [stack, tools]}
                 <div class="border border-title border-2px space-y-2 w-[300px] p-2 rounded-lg my-2 mx-2">
                     <h2 class="text-center font-bold text-xl text-title font-heading">{stack}</h2>
                     <div class="flex flex-wrap p-2">
