@@ -10,14 +10,14 @@
     <nav
       class="items-center justify-between font-heading tracking-wider text-2xl px-8 text-title bg-nav h-[90px] drop-shadow-xl hidden md:flex"
     >
-      <a href="#home">Home</a>
+      <a href="/home">Home</a>
       <a href="#about">About</a>
       <img
         src="icons/codeliterature_new.svg"
         alt="codeliterature logo"
         class="h-[150px] w-[150px] rounded-full drop-shadow-xl"
       />
-      <a href="/">Projects</a>
+      <a href="/projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
     <nav class="md:hidden px-8 py-4 flex items-center justify-between">
@@ -61,10 +61,10 @@
           out:fly={{ x: -200, duration: 500 }}
           class="h-[50%] w-[95%] absolute mx-auto top-20 right-2 rounded bg-indigo-500 text-white flex flex-col items-center justify-center text-xl gap-6 font-heading tracking-wider"
         >
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Projects</a>
-          <a href="/">Contact</a>
+          <a href="/home">Home</a>
+          <a href="#about">About</a>
+          <a href="/projects">Projects</a>
+          <a href="#contact">Contact</a>
         </div>
       {/if}
       <h1 class="text-xl text-title font-heading tracking-wider">

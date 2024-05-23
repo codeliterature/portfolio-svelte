@@ -4,4 +4,5 @@ let skill_dict = {
     "Dev Tools" : ["Git", "GitHub", "Googling", "Figma", "GSAP"]
 }
 
+
 export default skill_dict;
