@@ -9,15 +9,15 @@
     <nav
       class="items-center justify-between font-heading text-2xl px-8 text-title bg-nav h-[90px] drop-shadow-xl hidden md:flex"
     >
-      <a href="/">Home</a>
-      <a href="/">About</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
       <img
         src="icons/codeliterature_new.svg"
         alt="codeliterature logo"
         class="h-[150px] w-[150px] rounded-full drop-shadow-xl"
       />
       <a href="/">Projects</a>
-      <a href="/">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
     <nav class="md:hidden px-8 py-4 flex items-center justify-between">
       <button class="text-white" on:click={() => show = !show}>
@@ -57,4 +57,15 @@
     </nav>
   </header>
   <slot />
+  <footer class="flex flex-wrap items-center justify-between p-2 mx-2 text-white">
+    <div>Copyright {2024} <span class="font-heading tracking-wide text-title">CodeLiterature</span>. All Rights Reserved.</div>
+    <div class="flex space-x-2">
+        <h3>Follow us on:</h3>
+        <div class="flex space-x-2">
+            <a href="">X</a>
+            <a href="">I</a>
+            <a href="">G</a>
+        </div>
+    </div>
+</footer>
 </main>
