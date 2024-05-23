@@ -1,7 +1,7 @@
 let skill_dict = {
-    "Frontend" : ["HTML5", "CSS3", "JavaScript", "jQuery", "TailwindCSS", "MaterialUI"],
-    "Backend" : ["Node.js", "Express", "Flask", "MongoDB", "Firebase", "Supabase", "Jinja", "EJS"],
-    "Dev Tools" : ["Git", "GitHub", "Googling", "Python", "Gsap"]
+    "Frontend" : ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "TailwindCSS", "MaterialUI", "React.js", "Svelte"],
+    "Backend" : ["Python", "Node.js", "Express.js", "Flask", "MongoDB", "Firebase", "Supabase", "Jinja", "EJS"],
+    "Dev Tools" : ["Git", "GitHub", "Googling", "Figma", "GSAP"]
 }
 let img_url = "https://i.natgeofe.com/n/e5178e21-2be1-483b-9dec-50af1a3cbfe5/northern-flying-squirrel_square.jpg"
 
