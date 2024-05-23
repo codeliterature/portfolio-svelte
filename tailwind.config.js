@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         heading: ["CustomFont", "sans-serif"],
-        body: ["Cabin", "sans-serif"]
+        body: ["Poppins", "sans-serif"]
       },
       colors: {
         background: "#1A1A1A",
