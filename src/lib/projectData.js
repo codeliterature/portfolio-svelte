@@ -64,10 +64,10 @@ const projectData = [
   },
   {
     title: "Portfolio on React",
-    img: "https://codeliterature.netlify.app/images/dark.webp",
+    img: "https://codeliterature2.netlify.app/images/dark.webp",
     description: "Seamlessly designed and intuitively navigable, it showcases our finest web development projects. Explore our dynamic showcase, crafted with passion and expertise. Elevate your digital presence with CodeLiterature today.",
     githubLink: "https://github.com/codeliterature/codeliterature-portfolio-react",
-    url: "https://codeliterature.netlify.app/"
+    url: "https://codeliterature2.netlify.app/"
   }
 ];
 

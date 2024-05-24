@@ -61,10 +61,10 @@
           out:fly={{ x: -200, duration: 500 }}
           class="h-[50%] w-[95%] absolute mx-auto top-20 right-2 rounded bg-indigo-500 text-white flex flex-col items-center justify-center text-xl gap-6 font-heading tracking-wider"
         >
-          <a href="/">Home</a>
-          <a href="/#about">About</a>
-          <a href="/projects">Projects</a>
-          <a href="/#contact">Contact</a>
+          <a href="/" on:click={()=> {show = false}}>Home</a>
+          <a href="/#about" on:click={()=> {show = false}}>About</a>
+          <a href="/projects" on:click={()=> {show = false}}>Projects</a>
+          <a href="/#contact" on:click={()=> {show = false}}>Contact</a>
         </div>
       {/if}
       <h1 class="text-xl text-title font-heading tracking-wider">
